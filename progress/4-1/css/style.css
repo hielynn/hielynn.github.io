@@ -19,8 +19,8 @@ body {
 	background-color:  white;
 	color: #000a16;
 	font-family:  Lora, serif;
-	font-size: 1.2vh;
-	Line-height: 1.8vh;
+	font-size: 3vh;
+	Line-height: 4vh;
 }
 
 h1, h2, h3 {
@@ -58,6 +58,11 @@ p {
 	margin: 0.2vh 0;
 }
 
+nav {
+	font-family:  Poppins, sans-serif;
+	font-size:  3vh;
+	Line-height: 4.5vh;
+}
 a {
 	text-decoration: none;
 }
