@@ -28,32 +28,36 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size:  4vh;
-	Line-height:  6vh;
-	margin:  1vh 0;
+	font-size: 4vh;
+	Line-height: 6vh;
+	margin: 1vh 0;
 }
 
 h2 {
-	font-size:  3vh;
-	Line-height:  4.5vh;
-	margin:  0.8vh 0;
+	font-size: 3vh;
+	Line-height: 4.5vh;
+	margin: 0.8vh 0;
 }
 
 h3 {
-	font-size:  2.4vh;
-	Line-height:  3.6vh;
-	margin:  0.5vh 0;
+	font-size: 2.4vh;
+	Line-height: 3.6vh;
+	margin: 0.5vh 0;
 }
 
 article {
-	margin:  1.5vh 0;
-	padding:  1vh 5vw;
+	margin: 1.5vh 0;
+	padding: 1vh 5vw;
 }
 
 section {
-	margin:  1.2vh 0;
+	margin: 1.2vh 0;
 }
 
 p {
-	margin:  0.2vh 0;
+	margin: 0.2vh 0;
+}
+
+a {
+	text-decoration: none;
 }
