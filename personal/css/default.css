@@ -5,3 +5,11 @@ body {
 	background-color: #f5f5dc;
 	overflow-x: hidden;
 }
+
+nav > a {
+	text-decoration: none;
+}
+
+nav > a: visited {
+	color: white;
+}
