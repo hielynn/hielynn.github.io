@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<title>Quiz 5</title>
+		<style>
+			/* Do NOT change anything in <style> */
+			div {
+				display: inline-block;
+				margin: 10px;
+				height: 50px;
+				width: 50px;
+				background-color: green;
+			}
+		</style>
+		<script>
+			window.onload = function() {
+				document.getElementById('changeDiv1').addEventListener('click', function() {
+					document.getElementById('realDiv1').style.cssText = 'background-color: red; height: 40px; width: 100px;';
+				});
+				document.getElementById('changeDiv2').addEventListener('click', function() {
+					document.getElementById('realDiv2').style.cssText = 'background-color: black; height: 150px; width: 60px;';
+				});
+				document.getElementById('changeDiv3').addEventListener('click', function() {
+					document.getElementById('realDiv3').style.cssText = 'background-color: gold; height: 200px; width: 200px;';
+				});		
+			};
+		</script>
+	</head>
+	<body>
+		<div id="realDiv1">1</div>
+		<div id="realDiv2">2</div>
+		<div id="realDiv3">3</div> 
+		<button id="realDiv1">Change Div 1</button>
+		<button id="realDiv2">Change Div 2</button>
+		<button id="realDiv3">Change Div 3</button>
+	</body>
+</html>
