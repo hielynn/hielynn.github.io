@@ -6,7 +6,6 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css">
 		<script type="text/javascript" src="demo.js"></script>
 		<style>
-
 			nav {
 				position: fixed;
 				opacity: 0.9;
@@ -21,18 +20,22 @@
 			}
 
 		</style>
+		<script>
+			window.onload = function() {
+				document.getElementById('ya').addEventListener('click', function() {
+					alert('Thanks for your reply!')				
+				});	
+			};
+		</script>
 	</head>
 	<body>	
 		<nav>
 			<a>+</a> | <a href="index.html">Home</a> | <a href="goal.html">Our goals</a> | 
 			<a href="guidelines.html">Guidelines</a> | <a href="rating.html">Rating system & Feedback</a>
 		</nav>
-		<div>
-			<h1><b>Tripwith</b></h1>
-			<p><b>Start your unforgettable experience here!</b></p>
-		</div>	
-		<button>Rating</button><br/>
+		<h1>Rating</h1>
 		<input type="text" style="width: 500px;" /><br/>
 		<textarea style="width: 500px; height: 250px;"></textarea>
+		<button id='ya'>Send</button>
 	</body>
 </html>

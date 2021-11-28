@@ -5,4 +5,5 @@ window.onload = function() {
 		let textarea = $('body > textarea').eq(0);
 		textarea.html(inputVal);
 	});
+
 };
