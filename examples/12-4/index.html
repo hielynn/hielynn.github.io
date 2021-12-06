@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang='en-us'>
+	<head>
+		<meta charset='utf-8'>
+		<title>Example 12-4: Keyframes and Animation</title>
+	</head>
+	<style>
+		div {
+			width: 100%;
+			height: 100px;
+			animation: bgChange 1s linear infinite alternate, posChange 2s ease-in-out infinite alternate;
+		}
+
+		@keyframes bgChange {
+			from {
+				background-color: red;
+			}
+
+			to {
+				background-color: orange;
+			}
+		}
+
+		@keyframes posChange {
+			from {
+				margin-left: 0;
+			}
+
+			to {
+				margin-left: 100px;
+			}
+		}
+
+	</style>
+	<body>
+		<div></div>
+	</body>
+</html>
